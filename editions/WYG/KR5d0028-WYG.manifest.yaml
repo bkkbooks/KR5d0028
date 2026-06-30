@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0028/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR5d0028/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 易外別傳
+  date: '2015-08-29 00:59:40.905228'
+  source:
+    repository: kanripo
+    path: KR5d0028
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: WYG
+    label: 【四部全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0028_000-WYG.yaml, hash: 'sha256:58444503f323184c0ebd3aaf365474d11626985f93f1c961922a4cac2dc1b429'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0028_000-WYG.markers.yaml, hash: 'sha256:87cbe3691c5bb85b4b0b024078f314972b73565032efc474597f932d715b4739'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0028_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 7154
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:0d82f94c5a8e32d487b2aab5d7006afd2a6e5e2b2b65da91c9782620f24af7d4

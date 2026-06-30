@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0028/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5d0028/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 易外別傳
+  date: '2015-08-29 00:59:40.905228'
+  source:
+    repository: kanripo
+    path: KR5d0028
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0028_000-HFL.yaml, hash: 'sha256:e95650557292d52d7c235e06a411053161f93846e172b72d2d898649d36cc951'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0028_000-HFL.markers.yaml, hash: 'sha256:3b6c7773b07f787c389a867cebd4bec0876091246edf1527c4d0911a0bbc9de3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0028_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5568
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:99613331cead2c18aad5530214cd4d8044984b58589ed750d31d3269bf51ad72
